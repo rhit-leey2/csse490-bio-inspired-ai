@@ -1,0 +1,6 @@
+{
+    "java.project.sourcePaths": [
+        "source_code"
+    ],
+    "java.project.outputPath": "source_code"
+}
