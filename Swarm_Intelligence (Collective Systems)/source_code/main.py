@@ -49,12 +49,3 @@ def main():
         dt = fpsClock.tick(c.fps)
 
 main()
-
-#---BUTTON-----
-# xposition, yposition, width, height
-# ax_co = plt.axes([1000, 100, 200, 50])
-# ax_reset = plt.axes([1000, 800, 80, 50])
-# resetButton = Button(ax=ax_reset, label="Reset", color='red', hovercolor='black')
-# #place resetButton on screen where x=1100 and y=200
-# cohesion_slider = Slider(ax=ax_co,label="Cohesion",valmin=0, valmax=10,valinit=5,orientation="horizontal")
-# #resetButton.on_clicked(resetSlider)
