@@ -48,9 +48,6 @@ class Apple(Pie):
             if dist < c.min_distance:
                 separation_velocity_change[0] += self.rect.x - apple.rect.x
                 separation_velocity_change[1] += self.rect.y - apple.rect.y
-                # newPosX = separation_velocity_change[0] + self.rect.position[0] - apple.rect.position[0]
-                # newPosY = separation_velocity_change[1] + self.rect.position[1] - apple.rect.position[1]
-                # self.rect.positon = (newPosX, newPosY)
         newVelX = separation_velocity_change[0] / c.separation_weight
         newVelY = separation_velocity_change[1] / c.separation_weight
         self.velocity += (newVelX,newVelY)
